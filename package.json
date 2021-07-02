@@ -1,0 +1,15 @@
+{
+  "name": "gflbot-v2",
+  "version": "2.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fluff",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "discord.js-pagination": "^1.0.3"
+  }
+}

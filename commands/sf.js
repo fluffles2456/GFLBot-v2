@@ -164,7 +164,7 @@ module.exports = {
                 }
 
                 //alt form for destroyer
-                else(sfAltIndex == 10)
+                else if(sfAltIndex == 10)
                 {
                     //RNG to get alt variant
                     altRNG = Math.floor((Math.random() * 10) + 1);

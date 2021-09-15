@@ -12,7 +12,7 @@ module.exports = {
             //index 0 is empty; index 1-33, 2* doll
             " ", "M1911", "Nagant Revolver", "P38", "PPK", "M3", "PPSh-41", "PP-2000", "MP40",
             "Beretta Model 38", "m45", "SVT-38", "SKS", "G43", "FN-49", "BM59", "G3", "L85A1",
-            "Galil", "SIG-510", "LWWMG", "DP28", "MG34", "FNP-9", "MP-446", "Spectre M4",
+            "Galil", "SIG-510", "LWMMG", "DP28", "MG34", "FNP-9", "MP-446", "Spectre M4",
             "IDW", "Type 64", "F2000", "FG42", "AAT-52", "Type 63", "Bren Ten", "USP Compact",
             //index 34-131, 3* doll
             "M9", "TT-30", "Makarov", "P08", "C96", "Type 92", "Astra Revolver", "Glock 17",
@@ -49,11 +49,11 @@ module.exports = {
             "Contender", "S.A.T.8", "JS05", "K2", "Zas M21", "Carcano M1891", "Carcano M91/38",
             "Ballista", "AN94", "AK-12", "HK21", "SRS", "C-MS", "ADS", "MDR", "TAC-50",
             "PM-06", "Type 100", "M870", "M82A1", "Px4 Storm", "JS 9", "K11", "Type 88", "P22",
-            "Type 64", "P90", "HS2000", "X95", "Lewis Gun", "M200", "PM-9", "PA-15", "QBU-88",
-            "MG36", "R93", "Desert Eagle", "ACR", "Kord", "CAWS", "DP-12", "C-93", "SIG-556",
-            "R5", "Howa Type 89", "RPK-16", "AK-15", "Webley", "SL8", "HP-35", "AK-Alfa",
-            "ZB-26", "Lusa", "VSK-94", "Steyr ACR", "AUG Para", "General Liu", "VHS",
-            "LTLX 7000", "M6 ASW", "SVCh", "Kolibri", "VP1915", "Savage 99", "De Lisle",
+            "Howa Type 64", "P90", "HS2000", "X95", "Lewis Gun", "M200", "PM-9", "PA-15",
+            "QBU-88","MG36", "R93", "Desert Eagle", "ACR", "Kord", "CAWS", "DP-12", "C-93",
+            "SIG-556", "R5", "Howa Type 89", "RPK-16", "AK-15", "Webley", "SL8", "HP-35",
+            "AK-Alfa", "ZB-26", "Lusa", "VSK-94", "Steyr ACR", "AUG Para", "General Liu",
+            "VHS", "LTLX 7000", "M6 ASW", "SVCh", "Kolibri", "VP1915", "Savage 99", "De Lisle",
             "SIG MCX", "RPK 203", "TKB-408",
             //index 334-356, event doll
             "Noel", "Ephelt", "Kiana", "Raiden Mei", "Bronya", "Theresa", "Murata Himeko",
@@ -360,7 +360,7 @@ module.exports = {
             "Commander, if there is anything that   \nI can do for you, just give the" +        //Springfield
             "\norder.",
             "Comrade, хорошо (very good)!",                                                     //Mosin-Nagant
-            "Don't worry commander. No one can escape from my bullet.",
+            "Don't worry commander. No one can      \nescape from my bullet.",                  //PTRD
             "Sniper SVD. Let see here, who is       \nlucky enough to welcome me.",             //SVD
             "Yo, it's M16. Leave the mission to     \nme.",                                     //M16
             "Commander, please take care of me.",                                               //M4A1
@@ -468,7 +468,7 @@ module.exports = {
             "Fate's Chosen Commander, I shall bear  \nwitness to thine advance, please be" +    //KSVK
             "\nconscious of it!",
             "Are you... the Commander? Looks like   \nI'm working with you from now on. As" +   //UKM-2000
-            "long as I'm here, " + '"they"' + " should not\nfind me...",
+            "\nlong as I'm here, " + '"they"' + " should not\nfind me...",
             "Hello, Commander. EM-2 Assault Rifle,  \nreporting for enrollment today...." +     //EM-2
             "\nHmm, based on your reaction, this    \nintroduction should leave a good" +
             "\nimpression.",

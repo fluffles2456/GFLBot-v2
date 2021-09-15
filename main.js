@@ -28,6 +28,19 @@ client.once("ready", () => {
 //run commands
 client.on("message", message => {
 
+    //reply whenever bot is being described as rigged
+    rig = message.content.toLowerCase();
+    if(rig.includes("rigged"))
+    {
+        const rigEmbed = new Discord.MessageEmbed;
+        rigEmbed.setColor("#2f3136");
+        rigEmbed.setTitle(message.member.user.tag);
+        rigEmbed.setDescription("Did you call me rigged? Just roll better lmao..." +
+        "\nPretty sure your parents wanted to roll a better child.");
+        message.channel.send(rigEmbed);
+        return 0;
+    }
+
     //check prefix
     if(!message.content.startsWith(prefix) || message.author.bot)
     {
@@ -89,6 +102,14 @@ client.on("message", message => {
         //run junya.js
         case "junya":
             client.commands.get("junya").execute(message, args);
+            break;
+
+        //run dolltime.js
+        case "dolltime":
+            const dolltime = "=dolltime ";
+            const timer = message.content.slice(dolltime.length).split(/ +/);
+            module.exports.timer = timer;
+            client.commands.get("dolltime").execute(message, args, timer);
             break;
     }
 
